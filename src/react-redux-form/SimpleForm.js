@@ -9,7 +9,7 @@ class SimpleForm extends PureComponent {
   constructor(props){
     super(props);
     this.state = {
-      showError:false
+      showError:true
     }
   }
   static propTypes = {
